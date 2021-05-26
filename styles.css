@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Chomsky Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Chomsky Regular'), url('./Chomsky.woff') format('woff');
+    }
+
+
+img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.header > h2{
+    font-family: 'Chomsky Regular';
+    text-align: center;
+}
+
+.section-card{
+    background-color:yellow;
+    width: 300px;
+    height: 300px;
+}
+.navbar-brand{
+    display: none;
+}
+.nav-link{
+    text-align: center;
+    transition: all .1s linear;
+}
+
+.lastUpdate{
+    color: grey;
+    font-size: 14px;
+}
+
+.titleContainer{
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.title{
+    font-family: 'Chomsky Regular';
+
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:white;
+    border-radius: 5px;
+    transform: scale(1.2);
+    background-color:rgb(59, 111, 141);
+    width:auto;
+}
+
+
+
+.nav-link:focus{
+    border-bottom: 2px solid orange;
+    width:auto;
+}
+
+.card{
+    width:100%;
+    margin: 20px;
+    transition: transform .2s linear;
+    box-shadow: 2px 2px 10px grey;
+}
+.card:hover{
+    box-shadow: 2px 2px 10px grey;
+    transform: scale(1.1);
+    z-index: 5;
+}
+.img-thumbnail{
+    width: 250px;
+    height: 100%;
+}
+.row{
+    justify-content: space-around;
+}
+.headerDateContainer{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.headerDateContainer >p> span{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 992px) {
+    
+    .header > h2{
+        display: none;
+    }
+    .navbar-brand{
+        display: block;
+        font-family: 'Chomsky Regular'; 
+    }
+  }
+
+
+ 
+.spinner-border{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+
+
+
+
