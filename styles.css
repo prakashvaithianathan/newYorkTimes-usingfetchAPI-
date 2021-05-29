@@ -2,7 +2,9 @@
     font-family: 'Chomsky Regular';
     font-style: normal;
     font-weight: normal;
-    src: local('Chomsky Regular'), url('./Chomsky.woff') format('woff');
+    src: local('Chomsky Regular'), 
+    url('./Chomsky.woff'), 
+    format('woff');
     }
 
 
@@ -63,7 +65,7 @@ img{
 
 .card{
     width:100%;
-    margin: 20px;
+    margin: 20px 0;
     transition: transform .2s linear;
     box-shadow: 2px 2px 10px grey;
 }
@@ -98,6 +100,7 @@ img{
         display: block;
         font-family: 'Chomsky Regular'; 
     }
+    
   }
 
 
@@ -107,7 +110,6 @@ img{
     top: 50%;
     left: 50%;
 }
-
 
 
 
